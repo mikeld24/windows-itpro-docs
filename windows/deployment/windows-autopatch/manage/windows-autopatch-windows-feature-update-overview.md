@@ -68,7 +68,7 @@ When devices are registered by manually adding them to the Windows Autopatch Dev
 
 The policies:
 
-- Contain the minimum Windows 10 version currently serviced by the [Windows servicing channels](/windows/release-health/release-information?msclkid=ee885719baa511ecb838e1a689da96d2). The current minimum Windows OS version is **Windows 10 21H2**.
+- Contain the minimum Windows 10 version currently serviced by the [Windows servicing channels](/windows/release-health/release-information?msclkid=ee885719baa511ecb838e1a689da96d2).
 - Set a bare minimum Windows OS version required by the service once devices are registered with the service.
 
 If the device is registered with Windows Autopatch, and the device is:
@@ -82,10 +82,10 @@ If your tenant is enrolled with Windows Autopatch, you can see the following def
 
 | Policy name | Phase mapping | Feature update version | Rollout options | First deployment ring availability | Final deployment ring availability | Day between deployment rings | Support end date |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Windows Autopatch - DSS Policy [Test] | Phase 1 | Windows 10 21H2 | Make update available as soon as possible | May 9, 2023  | N/A | N/A | June 11, 2024 |
-| Windows Autopatch - DSS Policy [First] | Phase 2 | Windows 10 21H2 | Make update available as soon as possible | May 16, 2023  | N/A | N/A | June 11, 2024 |
-| Windows Autopatch - DSS Policy [Fast] | Phase 3 | Windows 10 21H2 | Make update available as soon as possible | May 23, 2023  | N/A | N/A | June 11, 2024 |
-| Windows Autopatch - DSS Policy [Broad] | Phase 4 | Windows 10 21H2 | Make update available as soon as possible | May 30, 2023  | N/A | N/A | June 11, 2024 |
+| Windows Autopatch - DSS Policy [Test] | Phase 1 | Windows 10 22H2 | Make update available as soon as possible | May 9, 2023  | N/A | N/A | October 14, 2025 |
+| Windows Autopatch - DSS Policy [First] | Phase 2 | Windows 10 22H2 | Make update available as soon as possible | May 16, 2023  | N/A | N/A | October 14, 2025 |
+| Windows Autopatch - DSS Policy [Fast] | Phase 3 | Windows 10 22H2 | Make update available as soon as possible | May 23, 2023  | N/A | N/A | October 14, 2025 |
+| Windows Autopatch - DSS Policy [Broad] | Phase 4 | Windows 10 22H2 | Make update available as soon as possible | May 30, 2023  | N/A | N/A | October 14, 2025 |
 
 > [!NOTE]
 > Gradual rollout settings aren't configured in the default Windows Update feature policy. If the date of the final group availability is changed to a past date, all remaining devices are offered the update as soon as possible. For more information, see [rollout options for Windows Updates in Microsoft Intune](/mem/intune/protect/windows-update-rollout-options#make-updates-available-gradually).
